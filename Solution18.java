@@ -40,7 +40,9 @@ class Solution {
         }
 
         // 对于索引 i，除 nums[i] 之外其余各元素的乘积就是左侧所有元素的乘积乘以右侧所有元素的乘积
+        // 遍历数组 L 和 R 的每个元素
         for {int i = 0; i < length; i++} {
+            // 将数组 L 和 R 的对应元素相乘，并将结果存储到数组 answer 中
             answer[i] = L[i] * R[i];
         }
 
